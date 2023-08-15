@@ -1,27 +1,27 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  science,
+  reactdev,
+  learner,
+  web_dev,
   javascript,
-  typescript,
+  bootstrap,
   html,
   css,
   reactjs,
-  redux,
+  firebase,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  mysql,
+  nextjs,
+  yorku,
+  uoft,
+  seneca,
+  bemo,
+  aiSummarizer,
+  animeBootcamp,
+  jobSeeker,
   threejs,
 } from "../assets";
 
@@ -32,7 +32,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -43,19 +43,19 @@ export const navLinks = [
 const services = [
   {
     title: "Web Developer",
-    icon: web,
+    icon: web_dev,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Science Background",
+    icon: science,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "React Developer",
+    icon: reactdev,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Tech Savy",
+    icon: learner,
   },
 ];
 
@@ -73,20 +73,16 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Node JS",
@@ -97,6 +93,14 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
+  {
     name: "Three JS",
     icon: threejs,
   },
@@ -105,61 +109,44 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Next JS",
+    icon: nextjs,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Biomedical Science Program",
+    company_name: "York University",
+    icon: yorku,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2017 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Develop a strong grasp of core biological concepts, including genetics, cell biology, and physiology.",
+      "Gain knowledge about medical topics, human anatomy, and disease mechanisms.",
+      "Acquire practical skills in laboratory techniques, data analysis, and research.",
+      "Enhance problem-solving abilities and critical thinking through real-world medical challenges and scientific analysis.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Full stack Development Bootcamp",
+    company_name: "University of Toronto",
+    icon: uoft,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug 2022 - Feb 2023",
+    points: [
+      "Attain strong coding skills in relevant programming languages and technologies.",
+      "Develop effective problem-solving techniques through hands-on coding projects.",
+      "Learn to collaborate in coding teams, simulating real-world development environments.",
+      "Acquire skills aligned with industry demands, enhancing job readiness in tech fields.",
+    ],
+  },
+  {
+    title: "Computer Programming & Analysis",
+    company_name: "Seneca",
+    icon: seneca,
+    iconBg: "#DA281C",
+    date: "Sep 2023 - TBD",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,9 +185,51 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "BEMO",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A mobile app built with Expo and React Native, leveraging the power of Firebase for seamless backend functionality and authentication. Stores can effortlessly upload pictures of their items for sale directly from their camera roll, streamlining the selling process. Users can follow their favourite stores, stay updated with new posts, and engage through likes and comments, fostering a sense of community and customer engagement.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bemo,
+    source_code_link: "https://github.com/renfunny/BEMO-react_native",
+  },
+  {
+    name: "AI Summarizer",
+    description:
+      "An AI-based article/webpage summarizer that will give the user a short and concise summary of the article or webpage given. The app works by using an openAI API which takes in the URL of the article/webpage and gives back a summary. Sumz is also able to save the last 5 summaries the user has made, as well as switch between them with a simple click.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aiSummarizer,
+    source_code_link: "https://github.com/renfunny/AI-Summarizer",
+  },
+  {
+    name: "Anime Bootcamp",
+    description:
+      "A simple web app that allows users to search for their favourite anime and manga. The app uses the anime-db API to fetch the data and display it in a clean and organized manner. Users can also save their favourite anime and manga to their profile, which is stored using MongoDB.",
     tags: [
       {
         name: "react",
@@ -211,54 +240,32 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "api",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: animeBootcamp,
+    source_code_link: "https://github.com/renfunny/anime-bootcamp",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Job Seeker",
+    description: `An application created with React Native which uses a third party API (JSearch) to fetch data of jobs the user might be interested on. It is able to display jobs nearby, popular jobs, full-time, part-time, and contractor jobs. The app will look for React Developer jobs in the US as a default unless the user uses the search bar to search for a specific job at a specific location. The user also has the option to tap the "Apply for job" button which will take them to the actual job posting.`,
     tags: [
       {
-        name: "react",
+        name: "reactnative",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "expo",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "api",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: jobSeeker,
+    source_code_link: "https://github.com/renfunny/job_seeker-react_native",
   },
 ];
 
