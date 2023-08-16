@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import reactdev from "./react.png";
 import learner from "./student.png";
 import science from "./dna.png";
