@@ -42,11 +42,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a skilled Full Stack Developer with a solid background in
-        Biomedical Science. I have experience with technologies such as:
-        JavaScript, React, React Native, Next.js, MySQL, MongoDB, Node.js, among
-        others... I am an active learner looking to expand my knowledge and
-        become a trustworthy professional you can rely on!
+        I am a skilled Developer with a background in Biomedical Sciences. I
+        have experience with technologies such as: JavaScript, C, C++, React,
+        React Native, Next.js, MySQL, MongoDB, Node.js, among others... I am an
+        active learner looking to expand my knowledge and become a trustworthy
+        professional you can rely on!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

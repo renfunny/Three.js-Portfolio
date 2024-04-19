@@ -42,7 +42,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Programming Background",
     icon: web_dev,
   },
   {
@@ -50,11 +50,11 @@ const services = [
     icon: science,
   },
   {
-    title: "React Developer",
+    title: "React Enthusiast",
     icon: reactdev,
   },
   {
-    title: "Tech Savy",
+    title: "Quick Learner",
     icon: learner,
   },
 ];
@@ -122,10 +122,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2017 - Dec 2021",
     points: [
-      "Develop a strong grasp of core biological concepts, including genetics, cell biology, and physiology.",
-      "Gain knowledge about medical topics, human anatomy, and disease mechanisms.",
-      "Acquire practical skills in laboratory techniques, data analysis, and research.",
-      "Enhance problem-solving abilities and critical thinking through real-world medical challenges and scientific analysis.",
+      "Developed a strong grasp of core biological concepts, including genetics, cell biology, and physiology.",
+      "Gained research experience in a laboratory setting, while also improving accuracy when collecting data, and improving both analitical skills, and scientific writting.",
+      "Was able to work in a team setting, and develop a strong sense of leadership, and communication skills.",
+      "Enhanced problem-solving abilities and critical thinking through real-world laboratory challenges and scientific analysis.",
     ],
   },
   {
@@ -135,10 +135,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Aug 2022 - Feb 2023",
     points: [
-      "Attain strong coding skills in relevant programming languages and technologies.",
-      "Develop effective problem-solving techniques through hands-on coding projects.",
-      "Learn to collaborate in coding teams, simulating real-world development environments.",
-      "Acquire skills aligned with industry demands, enhancing job readiness in tech fields.",
+      "Attained strong coding skills in relevant programming languages such as Javascript and various Javascript-related libraries and frameworks.",
+      "Developed effective problem-solving techniques through hands-on coding projects.",
+      "Learned how to collaborate in coding teams, by using tools such as Git and Github, simulating real-world development environments.",
+      "Acquired skills aligned with industry demands, enhancing job readiness in tech fields.",
     ],
   },
   {
@@ -148,10 +148,10 @@ const experiences = [
     iconBg: "#DA281C",
     date: "Sep 2023 - TBD",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a strong grasp of core programming concepts, including object-oriented programming, data structures, and algorithms.",
+      "Gained experience in a variety of programming languages, including C, C++, and Javascript.",
+      "Gained experience in database management, using SQL and NoSQL databases.",
+      "Learned how to develop web applications using modern web development technologies such as React, Node, and Express.",
     ],
   },
 ];
